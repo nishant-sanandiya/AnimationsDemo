@@ -1,0 +1,27 @@
+{
+  "cSpell.words": [
+    "aadhaar",
+    "apikey",
+    "assembledevelopment",
+    "assembleproduction",
+    "assemblestaging",
+    "collapsable",
+    "Dekho",
+    "formik",
+    "gifs",
+    "ifsc",
+    "KEYSFILE",
+    "lcov",
+    "MMKV",
+    "netinfo",
+    "tanstack",
+    "telprompt",
+    "xcodebuild"
+  ],
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "jest.runMode": "on-demand"
+}
