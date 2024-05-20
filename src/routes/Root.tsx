@@ -12,6 +12,13 @@ import {
   Eight,
   Nine,
   Ten,
+  Eleven,
+  Twelve,
+  Thirteen,
+  Fourteen,
+  Fifteen,
+  Sixteen,
+  Seventeen,
 } from '../screens';
 
 const Stack = createNativeStackNavigator();
@@ -19,7 +26,7 @@ const Stack = createNativeStackNavigator();
 export const Root = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Eight">
+      <Stack.Navigator>
         <Stack.Screen name="One" component={One} />
         <Stack.Screen name="Two" component={Two} />
         <Stack.Screen name="Three" component={Three} />
@@ -30,6 +37,13 @@ export const Root = () => {
         <Stack.Screen name="Eight" component={Eight} />
         <Stack.Screen name="Nine" component={Nine} />
         <Stack.Screen name="Ten" component={Ten} />
+        <Stack.Screen name="Eleven" component={Eleven} />
+        <Stack.Screen name="Twelve" component={Twelve} />
+        <Stack.Screen name="Thirteen" component={Thirteen} />
+        <Stack.Screen name="Fourteen" component={Fourteen} />
+        <Stack.Screen name="Fifteen" component={Fifteen} />
+        <Stack.Screen name="Sixteen" component={Sixteen} />
+        <Stack.Screen name="Seventeen" component={Seventeen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

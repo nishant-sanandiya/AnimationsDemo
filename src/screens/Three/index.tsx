@@ -6,6 +6,7 @@ import {useNavigation} from '@react-navigation/native';
 
 export const Three = () => {
   const navigation = useNavigation<any>();
+
   const renderItem = () => {
     return <Item />;
   };
